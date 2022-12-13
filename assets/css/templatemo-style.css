@@ -187,7 +187,7 @@ html {
 
 .menu .copyright-text {
     position: relative;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .menu .copyright-text p {
@@ -398,7 +398,26 @@ button:hover {
     margin-top: 30px;
 }
 
+/*education*/
 
+.education {
+    min-height: 350px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 50px;
+    background-color: rgba(250, 250, 250, 0.1);
+    transition: all 0.5s;
+}
+.education:hover {
+    background-color: rgba(250, 250, 250, 1);
+}
+
+.education:hover h5 {
+    color: #1e1e1e;
+}
+.education:hover h6 {
+    color: #1e1e1e;
+}
 /* Services */
 
 .my-services .col-md-6 {
@@ -407,6 +426,8 @@ button:hover {
 }
 
 .service-item {
+    min-height: 350px;
+    border-radius: 10px;
     margin-bottom: 10px;
     padding: 50px;
     background-color: rgba(250, 250, 250, 0.1);
@@ -475,7 +496,23 @@ button:hover {
     background-image: url(../images/fourth-main-icon.png);
 }
 
-
+.my-sertif .col-md-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.sertifikat {
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: rgba(250, 250, 250, 0.1);
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+.sertifikat:hover {
+    background-color: rgb(50, 31, 2);
+}
+.sertifikat img {
+    border-radius: 10px;
+}
 /* My Work */
 
 section.my-work .section-heading {
