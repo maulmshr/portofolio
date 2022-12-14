@@ -411,6 +411,23 @@ button:hover {
     background-color: rgba(250, 250, 250, 1);
 }
 
+.education .service-icon {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+.education:hover .education-icon {
+    background-image: url(../images/Education-logo.png);
+}
+
+.education .education-icon {
+    background-image: url(../images/Education-white-logo.png);
+}
+
 .education:hover h5 {
     color: #1e1e1e;
 }
